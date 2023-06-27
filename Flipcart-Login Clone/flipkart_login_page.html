@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+           main{
+             height: 500px;
+            width: 650px;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            box-shadow: -1px 1px 5px rgba(0,0,0,0.8);
+            margin-top: 70px;
+        }
+        .box{
+            height: 500px; 
+            padding: 50px 35px 20px 35px;
+        }
+        #box1{
+            width: 250px;
+            background-color: #2874f0;
+        }
+        #box2{
+            width: 400px;
+            background-color: #fff;
+            padding-top: 65px;
+        }
+        #login{
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+        }
+        #get{
+            width: 150px;
+            height: 220px;
+            color: white;
+            margin-top: 15px;
+        }
+        #img{
+            width: 180px;
+            height: 130px;
+            background-image: url(./login_img_c4a81e.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-bottom: 100px;
+        }
+        #input{
+            width: 330px;
+            border: none;
+            border-bottom: 0.1px solid rgba(0, 0, 200, 0.2);
+            color: #000;
+            padding: 8px 0px;
+            font-size: 15px;
+        }
+        p{
+            font-size: 11px;
+            margin-top: 25px;
+        }
+        #submit{
+            width: 330px;
+            height: 40px;
+            background-color: #fb641b;
+            color: white;
+            border: none;
+            box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+        }
+        #end{
+            margin-top: 250px;
+            text-align: center;
+            color: #2874f0;
+            font-size: small;
+            font-weight: 500;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box" id="box1">
+            <div id="login"> Login</div>
+            <div id="get">Get access to your Orders, Wishlist and Recommendations</div>
+            <div id="img"></div>
+        </div>
+        <div class="box" id="box2">
+            <input id="input" type="text" placeholder="Enter Email/Mobile number">
+            <p>By continuing, you agree to Flipkart's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy.</a></p>
+            <input type="submit" value="Request OTP" id="submit">
+            <div id="end">New to Flipkart? Create an account</div>
+        </div>
+    </main>
+</body>
+</html>

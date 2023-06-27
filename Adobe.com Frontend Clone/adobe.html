@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0px 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        nav {
+            width: 100%;
+            height: 60px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            position: sticky;
+            box-shadow: 0px 0px 2px black;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        #navleft {
+            width: max-content;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            position: absolute;
+            left: 20px;
+        }
+
+        nav .box {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            margin-left: 30px;
+        }
+
+        nav div span {
+            color: red;
+            padding: 10px;
+            font-size: medium;
+            font-weight: 600;
+        }
+
+        #search {
+            transform: rotate(90deg) scale(1.2);
+        }
+
+        #box6 span {
+            padding: 25px;
+            font-weight: 100;
+            font-size: 14px;
+            color: black;
+
+        }
+
+        #box6 {
+            position: absolute;
+            right: 40px;
+        }
+
+        nav div a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #search a:hover {
+            color: skyblue;
+
+
+        }
+
+        nav span a:hover {
+            color: skyblue;
+        }
+
+        #img1 {
+            background-image: url(./CC-MAX-.jfif);
+            background-size: cover;
+            height: 600px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .img .content{
+            height: max-content;
+            width: 600px;
+            margin-left: 5%;;
+
+        }
+        .img .content h1{
+        margin-bottom: 3%;
+        }
+        .img .content p{
+            margin-bottom: 3%;  
+        }
+
+        .img .content a{
+            margin-right: 15px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        #start{
+            background-color: dodgerblue;
+            padding: 8px 10px;
+            border-radius: 20px;
+            color: white;
+        }
+        #explore{
+            color: black;
+
+        }
+        #nav2{
+            justify-content: center;
+        }
+        #nav2 a{
+            border-radius: 20px;
+            border: 1px solid;
+            padding: 5px 8px 5px 8px;
+            margin-left: 10px;
+            font-size: 13px;
+            font-weight: 800;
+        }
+        #nav2 span{
+            color: black;
+            font-size: 15px;
+        }
+        .smallimg{
+            background-size: cover;
+            background-position: center right;
+            height: 450px;
+            width: 30%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 10px;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+        .smallimg .smallcontent{
+            height: max-content;
+            width: 600px;
+            margin-left: 5%;
+
+        }
+        .smallimg .smallcontent h1{
+        margin-bottom: 3%;
+        }
+        .img .content p{
+            margin-bottom: 3%;  
+        }
+        .smallimg .smallcontent a{
+            margin-right: 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        #img2{
+            background-image: url(./jeep.avif);
+        }
+        #img3{
+            background-image: url(./notepad.png);
+        }
+        #img5{
+            background-image: url(./man.jfif);
+        }
+        #img4{
+            background-color: rgb(104, 104, 240);
+            padding: 40px 30px 40px 30px;
+        }
+        #img4 h4{
+            width: 100%;
+            text-align: left;
+            border-bottom: 0.5px solid;
+            padding: 5px 0px;
+        }
+        #img4 a{
+            display: block;
+            width: fit-content;
+            margin-right: 37%;
+            margin-left: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: black;
+
+        }
+        #img4 a:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="navleft">
+            <div class="box" id="box1">
+                <img src="./Adobe_logo.svg" alt="" height="25px" width="25px">
+                <span>Adobe</span>
+            </div>
+            <div class="box" id="box2"> <a href="">Creativity & Design <i class="fa fa-angle-down"
+                        aria-hidden="true"></i></a></div>
+            <div class="box" id="box3"> <a href="">PDF & E-signatures <i class="fa fa-angle-down"
+                        aria-hidden="true"></i></a> </div>
+            <div class="box" id="box4"><a href="">Marketing & Commerce <i class="fa fa-angle-down"
+                        aria-hidden="true"></i></a> </div>
+            <div class="box" id="box5"> <a href="">Help & Support <i class="fa fa-angle-down"
+                        aria-hidden="true"></i></a> </div>
+        </div>
+        <div class="box" id="box6">
+            <div id="search"> <a href=""><i class="fa fa-search" aria-hidden="true"></i></a> </div>
+            <span><a href="">Sign In</a> </span>
+        </div>
+    </nav>
+    <div class="img" id="img1">
+        <div class="content">
+            <h1>New in Creative Cloud.</h1>
+            <p>Create faster with new AI features in Illustrator, Premiere Pro, and Lightroom. Collaborate with Share
+                for Review in Photoshop and Illustrator. Make standout content quickly with Adobe Express. And design
+                for the future with new 3D tools.</p>
+                <a href="" id="start">Start free trial</a>
+                <a href="" id="explore">Explore Creative Cloud</a>
+        </div>
+    </div>
+    <nav id="nav2">
+        <div>
+            <span>Creative Cloud for:</span>
+            <a href="">Individuals</a>
+            <a href="">Students & Teachers</a>
+            <a href="">Business</a>
+        </div>
+    </nav>
+    <div id="img2" class="smallimg">
+        <div class="smallcontent">
+            <h1>Adobe Express</h1>
+            <p>Quickly and easily make standout content. No credit card required.</p>
+                <a href="">Start free trial</a>
+                <a href="">Get Adobe Express free</a>
+        </div>
+    </div>
+    <div id="img3" class="smallimg">
+        <div class="smallcontent">
+            <h1>New in Creative Cloud.</h1>
+            <p>Create faster with new AI features in Illustrator, Premiere Pro, and Lightroom. Collaborate with Share
+                for Review in Photoshop and Illustrator. Make standout content quickly with Adobe Express. And design
+                for the future with new 3D tools.</p>
+                <a href="">Start free trial</a>
+                <a href="">Explore Creative Cloud</a>
+        </div>
+    </div>
+    <div id="img4" class="smallimg">
+        <h4>Explore our creative apps</h4>
+        <a href="">Creative Cloud All Apps free trial</a>
+        <a href="">See plans and pricing</a>
+        <h4>See what you can do</h4>
+        <a href="">Photography</a>
+        <a href="">Graphic design</a>
+        <a href="">Video</a>
+        <a href="">Illustration </a>
+        <a href="">UI and UX</a>
+        <a href="">3D and AR</a>
+        <a href="">Social media</a>
+    </div>
+    <div id="img5" class="smallimg"></div>
+</body>
+
+</html>

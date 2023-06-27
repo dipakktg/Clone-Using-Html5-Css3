@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram_login </title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #fafafa;
+            font-size: 14px;
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        .container {
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: row-reverse;
+        }
+
+        .right-container {
+            width: 350px;
+        }
+
+        .content-container {
+            background-color: white;
+            margin: auto;
+            margin-bottom: .6rem;
+            padding-top: 1rem;
+            width: 350px;
+            height: 22rem;
+            border: 1px solid lightgrey;
+        }
+
+        .content-container>img {
+            display: block;
+            margin: auto;
+            width: 10rem;
+            height: 7rem;
+        }
+
+        .form {
+            display: block;
+            margin: auto;
+            border-bottom: 1px solid lightgray;
+            width: 250px;
+            padding-bottom: 20px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        [type="email"],
+        [type="password"],
+        [type="submit"] {
+            background-color: #fafafa;
+            width: 228px;
+            font-size: 10px;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid lightgray;
+            border-radius: 2px;
+        }
+
+        [type="submit"] {
+            background-color: rgb(0, 149, 246);
+            color: white;
+            border: none;
+            width: 250px;
+            height: 27px;
+            font-weight: 700;
+            text-align: center;
+            line-height: 2px;
+            margin: 0 auto;
+            border-radius: 3px;
+        }
+
+        .or {
+            background-color: #ffffff;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            width: 30px;
+            font-size: 12px;
+            font-weight: 500;
+            padding: .45rem;
+            margin-top: 6px;
+            color: #8e8e95;
+        }
+
+        .fb-pw {
+            margin: auto;
+            margin-top: 35px;
+            width: 250px;
+        }
+
+        .facebook {
+            margin: auto;
+            width: 165px;
+            height: 20px;
+        }
+
+        .facebook>img {
+            width: 23px;
+            float: left;
+        }
+
+        .forgot-pw>a {
+            text-decoration: none;
+            vertical-align: middle;
+            color: #385185;
+            font-weight: 400;
+        }
+
+        .facebook>a {
+            color: #385185;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .forgot-pw {
+            margin: auto;
+            margin-top: 20px;
+            text-align: center;
+            width: 110px;
+            height: 20px;
+            font-size: 12px;
+        }
+
+        .sign-up {
+            background-color: #ffffff;
+            margin: auto;
+            text-align: center;
+            border: 1px solid lightgray;
+            width: 350px;
+            height: 40px;
+            padding-top: 20px;
+        }
+
+        .sign-up>p>a {
+            text-decoration: none;
+            color: rgb(0, 149, 246);
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="right-container">
+            <div class="content-container">
+                <img src="./instagram-g018fb01b5_640.png" alt="instagram logo">
+                <form class="form">
+                    <input type="email" placeholder="Phone number, username, or email">
+                    <input type="password" placeholder="Password">
+                    <input type="submit" value="Log In">
+                    <div class="or">
+                        <p>OR</p>
+                    </div>
+                </form>
+
+                <div class="fb-pw">
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/login/">Log in with Facebook</a>
+                    </div>
+                    <div class="forgot-pw">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sign-up">
+                <p>Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

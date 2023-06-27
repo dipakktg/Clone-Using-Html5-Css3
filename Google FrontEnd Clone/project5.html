@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 5</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0 auto;
+            box-sizing: border-box;
+        }
+        #navicon{
+            height: 10vh;
+            width: 20vw;
+            margin-left: 80vw;
+            text-align: center;
+            margin-top: 5vh;
+        }
+        #navicon a{
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: larger;
+            display: inline-block;
+        }
+        #proicon{
+            padding: 0.75vh 1.125vh;
+            border-radius: 50%;
+            background-color: black;
+            color:white;
+        }
+        .search{
+            display: inline-block;
+    
+        }
+        #searchbar{
+            height: 6vh;
+            width: 40vw;
+            margin-left: 30vw;
+            margin-top: 7vh;
+            border: 2px solid;
+            border-radius: 20px;
+        }
+        #search{
+            font-size: 3vh;
+            margin-top: 1vh;
+            padding-left: 1.5vw;
+        }
+        #mic{
+            font-size: 3vh;
+        }
+        div input{
+            width: 34vw;
+            border: none;
+            height: 4vh;
+            margin: 0 auto;
+            outline: 0;
+        }
+        #image{
+            background-image:url(./google_logo.svg);
+            height: 15vh;
+            width: 30vw;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-top: 15vh;
+        }
+        a{
+            font-size: 2vw;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+<div id="page">
+    <div id="navicon">
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail</a>
+        <a href="https://images.google.com/" target="_blank">Images</a>
+        <a href="https://about.google/products/?tab=rh#all-products" target="_blank"><i class="fa fa-th" aria-hidden="true"></i></a>
+        <a id="proicon" href="https://accounts.google.com/ServiceLogin?sa" target="_blank"><i class="fa fa-user" aria-hidden="true"></i></a>
+    </div>
+
+    <div id="image"></div>
+    <div id="searchbar" >
+        <div id="search" class="search" class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+        <div id="input" class="search">
+            <input type="text" placeholder="Search Google or type a URL" style="font-size: medium;">
+        </div>
+        <div id="mic" class="search" class="icon"><i class="fa fa-microphone" aria-hidden="true"></i></div>
+    </div>
+        
+</div>
+    
+</body>
+</html>
